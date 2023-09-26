@@ -1,0 +1,51 @@
+
+#form-container{
+    margin-top: 50px;
+    box-shadow:
+    5.5px 1px 4.3px rgba(0, 0, 0, 0.041),
+    12.7px 2.3px 9.5px rgba(0, 0, 0, 0.06),
+    22.8px 4.2px 16.6px rgba(0, 0, 0, 0.074),
+    37.9px 6.9px 27.3px rgba(0, 0, 0, 0.086),
+    62.4px 11.4px 46.3px rgba(0, 0, 0, 0.1),
+    109.1px 19.9px 86.6px rgba(0, 0, 0, 0.119),
+    236px 43px 199px rgba(0, 0, 0, 0.16)
+  ;
+  margin-bottom: 50px;
+    
+    
+}
+
+
+#button-div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#submit-button{
+    border-radius: 13px;
+    margin-left: 40%;
+    width: 150px;
+    
+    
+}
+
+#top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button-text{
+    text-align: center;
+    margin-left: 405;
+}
+
+img{
+    height: 119px;
+    width:171px;
+}
+h1{
+    color:#404447;
+    font-family: 'Times New Roman', Times, serif;
+}

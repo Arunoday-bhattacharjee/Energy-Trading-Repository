@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+  <div class="row" id="top">
+        
+    <h1>Trading Window Resoluter</h1>
+
+    <img src="current.png" alt="Electicbolt">
+</div>
+
+</div>
+
+  <form>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <br>
+    <button type="submit" id="submit-button" onclick="verification()">Submit</button>
+  </form>
+  <script>
+
+  function verification(){
+  event.preventDefault();
+  const form = document.querySelector('form');
+  const username = document.querySelector('#username').value;
+  const password = document.querySelector('#password').value;
+  console.log(username);
+  console.log(password);
+  // Check if the username and password are correct
+  if (username === 'admin' && password === 'admin'){
+    // If they are correct, redirect to another page
+    window.location.href = 'main.html';
+  } else {
+    // If they are incorrect, display an error message
+    const errorElement = document.createElement('p');
+    errorElement.textContent = 'Invalid username or password';
+    form.appendChild(errorElement);
+  }
+}
+  </script>
+  
+
+  
+
+  
+
+
+
+    
+</body>
+</html>
